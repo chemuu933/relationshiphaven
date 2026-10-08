@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Get Involved | Relationship Haven Organization</title>
+<meta name="description" content="Volunteer, partner, support a programme or contact Relationship Haven Organization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap bar">
+<a href="index.html#home" aria-label="Relationship Haven Organization home"><img src="logo.jpg" alt="Relationship Haven logo: Bridging Humanity Gaps"></a>
+<button id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Primary"><ul>
+<li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="impact.html">Impact</a></li><li><a href="media.html">Haven Media</a></li><li><a href="get-involved.html#involved" aria-current="page">Get involved</a></li><li><a href="get-involved.html#contact" class="cta">Contact</a></li>
+</ul></nav></div></header>
+<main id="main">
+<section id="involved" class="alt-bg"><div class="wrap">
+<p class="slogan">Take part</p><h1>Get involved</h1>
+<p>There is a place for you in this work. Pick a pathway and send us a short message below.</p>
+<div class="grid3">
+<div class="path"><h3>Volunteer</h3><p>Give your time and skills to community development, wellness, peace and civic projects.</p><a href="#contact" data-t="Volunteer">Express interest</a></div>
+<div class="path"><h3>Partner with RHO</h3><p>Collaborate as a government body, civil society group, faith institution, school or funder.</p><a href="#contact" data-t="Partnership">Start a conversation</a></div>
+<div class="path"><h3>Support our programmes</h3><p>Help us reach more people. Tell us how you would like to contribute.</p><a href="#contact" data-t="Support">Ask how to support</a></div>
+<div class="path"><h3>Facilitate or refer</h3><p>Professional facilitators can offer sessions. For referrals, please contact us directly and do not share personal details publicly.</p><a href="#contact" data-t="Facilitator or referral">Get in touch</a></div>
+</div></div></section>
+<section id="contact"><div class="wrap two">
+<div><p class="slogan">We'd like to hear from you</p><h2>Contact us</h2>
+<p>Questions, volunteering, partnerships or media: send a message and the RHO team will reply.</p>
+<p><b>Email:</b> <a href="mailto:relationshiphaven001@gmail.com">relationshiphaven001@gmail.com</a><br>
+<b>Location:</b> Nairobi County, Kenya<br>
+<b>Facebook:</b> Relationship Haven Organization<br>
+<b>Phone:</b> to be announced</p></div>
+<form id="f" novalidate>
+<label>I am writing about<select id="topic" name="topic"><option>General enquiry</option><option>Volunteer</option><option>Partnership</option><option>Support</option><option>Facilitator or referral</option><option>Media</option></select></label>
+<label>Your name<input id="name" autocomplete="name" required><span class="err" id="e1"></span></label>
+<label>Email address<input id="email" type="email" autocomplete="email" required><span class="err" id="e2"></span></label>
+<label>Message<textarea id="msg" rows="5" required></textarea><span class="err" id="e3"></span></label>
+<input class="hp" id="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="chk"><input type="checkbox" id="consent"><span>I agree that RHO may use these details to reply to me. Please do not include sensitive personal information. See the <a href="#" id="pv">privacy notice</a>.</span></label><span class="err" id="e4"></span>
+<button class="btn" type="submit">Send message</button>
+<div id="status" role="status"></div>
+</form></div></section>
+</main>
+<footer><div class="wrap"><div class="fgrid">
+<div><span class="logo"><img src="logo.jpg" alt="Relationship Haven"></span><p style="margin-top:14px">Bridging Humanity Gaps. Nairobi County, Kenya.</p></div>
+<div><b>Explore</b><ul><li><a href="about.html">About us</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="impact.html">Impact</a></li><li><a href="media.html">Haven Media</a></li></ul></div>
+<div><b>Take part</b><ul><li><a href="get-involved.html#involved">Get involved</a></li><li><a href="media.html#partners">Partners and news</a></li><li><a href="get-involved.html#contact">Contact</a></li><li><a href="#" id="pv2">Privacy and legal</a></li></ul></div>
+</div><p style="margin-top:32px;font-size:.9rem">&copy; 2026 Relationship Haven Organization. Registration details to be published once verified.</p></div></footer>
+<dialog id="dlg" aria-labelledby="dt"><h2 id="dt" style="font-size:1.6rem">Privacy notice</h2>
+<p>When you use the contact form, RHO asks only for your name, email address and message, so we can reply. We do not publish referral or personal information. Submitted data is kept only as long as needed and then deleted under RHO's retention practice.</p>
+<p>Photographs and video involving children or vulnerable people are used only with proper consent and safeguarding. A full privacy policy and terms will be published here before any wider data collection begins.</p>
+<form method="dialog"><button class="btn">Close</button></form></dialog>
+<script src="script.js"></script>
+</body>
+</html>
