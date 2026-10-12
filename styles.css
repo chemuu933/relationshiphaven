@@ -83,7 +83,7 @@ nav a.cta[aria-current="page"]{background:var(--navy);color:#fff}
 .partner-box b{display:block;margin-bottom:14px;color:var(--navy)}
 .partner-logos{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:16px}
 .partner-logos img{width:140px;height:90px;object-fit:contain;background:#fff;border-radius:12px;padding:10px;border:1px solid var(--line);box-shadow:0 4px 12px rgba(21,21,43,.04)}
-@media(max-width:640px){.partner-logos img{width:110px;height:72px}}
+@media(max-width:640px){.partner-box{padding:16px}.partner-logos{gap:10px}.partner-logos img{width:82px;height:56px;padding:6px;border-radius:10px}} 
 .activity-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:22px}
 .activity-card{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 10px 22px rgba(21,21,43,.04)}
 .activity-card img{display:block;width:100%;height:220px;object-fit:cover}
